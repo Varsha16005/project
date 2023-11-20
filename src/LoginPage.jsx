@@ -32,7 +32,7 @@ const LoginPage = () => {
     <div
       style={{
         backgroundImage:
-          'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4jNHsL6h9XdhCxmESytaUcomceE02xP_AOH-JaUCC01bGc5a2axS5puueeubRA1J2DDk&usqp=CAU")',
+          'url("https://www.shutterstock.com/image-photo/nature-green-leaf-garden-summer-260nw-1195048972.jpg")',
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         height: "100vh",
@@ -48,6 +48,7 @@ const LoginPage = () => {
             width: "35%",
             height: "500px",
             marginTop: "100px",
+            backgroundColor: "rgba(255, 255, 255, 0.5)",
             // backgroundImage: url(${backgroundImage}),
           }}
         >

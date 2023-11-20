@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
-import NavBar from "./Project/Home/NavBar";
-import LoginPage from "./Project/LoginPage";
-import Signup from "./Project/Signup";
+import NavBar from "./Home/NavBar";
+import LoginPage from "./LoginPage";
+import Signup from "./Signup";
 
 const router = createBrowserRouter([
   { path: "/home", element: <NavBar /> },
