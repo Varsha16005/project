@@ -13,10 +13,10 @@
 
 import React from "react";
 import { createBrowserRouter, Routes, Route } from "react-router-dom";
-import NavBar from "./Home/NavBar";
 import LoginPage from "./LoginPage";
 import Signup from "./Signup";
 import leaves from "./leaves.mp4";
+import LayoutComponents from "./LayoutComponents";
 
 const Layout = ({ children }) => (
   <div
@@ -72,7 +72,8 @@ const router = createBrowserRouter([
     element: (
       <Layout>
         <Routes>
-          <Route index element={<NavBar />} />
+          {/* <Route index element={<NavBar />} /> */}
+          <Route index element={<LayoutComponents />} />
         </Routes>
       </Layout>
     ),
