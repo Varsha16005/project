@@ -5,27 +5,24 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import { Link } from "react-router-dom";
-
-export default function Aesthetic() {
+import image from "./vege.jpg";
+export default function Vegetables() {
   return (
     <Card sx={{ maxWidth: 345, zIndex: 1 }}>
-      <Link to="/pathap" style={{ textDecoration: "none", color: "black" }}>
+      <Link to="/pathv" style={{ textDecoration: "none", color: "black" }}>
         <CardActionArea>
-          <CardMedia
-            component="img"
-            height="140"
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyu2uwCtYR4-tkuHFflrzcXdFWO7WRAXEEdg&usqp=CAU"
-          />
+          <CardMedia component="img" height="140" src={image} />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Asthetic Plants
+              Vegetables
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Aesthetic plants are stylish, trendy plants which add visual
-              interest and variety to a space. Often these plants are placed
-              indoors, though depending on where you live and what your climate
-              is like, some cute aesthetic plants are also available for outdoor
-              use.
+              Vegetable plants encompass a diverse range of edible plants
+              cultivated for their fruits, roots, leaves, or stems, providing
+              essential nutrients and dietary variety.These plants are crucial
+              in gardening and agriculture, offering an array of varieties like
+              tomatoes, cucumbers, carrots, spinach, and more, contributing to
+              healthy diets and culinary practices.
             </Typography>
           </CardContent>
         </CardActionArea>

@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import { Typography, Paper, Button } from "@mui/material";
-import BorageimgDes from "./BorageimgDes.jpeg";
+import BottleimgDes from "./BottleimgDes.jpeg";
 
 const containerStyle = {
   backgroundImage: 'url("https://wallpaperaccess.com/full/754056.jpg")',
   backgroundSize: "cover",
   width: "50%",
-  height: "1100px",
+  height: "1000px",
   maxWidth: 800,
   margin: "auto",
   padding: 16,
@@ -22,13 +22,6 @@ const containerStyle = {
   marginLeft: "auto",
 };
 
-const divStyle = {
-  zIndex: 1,
-  backgroundcolor: "blue",
-  backgroundSize: "cover",
-  backgroundRepeat: "no-repeat",
-  backgroundPosition: "center",
-};
 const sectionStyle = {
   marginBottom: 24,
   marginRight: "auto",
@@ -36,6 +29,13 @@ const sectionStyle = {
   textIndent: "5em",
 };
 
+const divStyle = {
+  zIndex: 1,
+  backgroundcolor: "blue",
+  backgroundSize: "cover",
+  backgroundRepeat: "no-repeat",
+  backgroundPosition: "center",
+};
 const headingStyle = {
   fontFamily: "Comic Sans MS, cursive",
   marginRight: "auto",
@@ -48,7 +48,7 @@ const imageStyle = {
   marginBottom: 16,
 };
 
-const BoragePlantCare = () => {
+const CucuzzaSquashCare = () => {
   return (
     <div
       style={{
@@ -64,50 +64,45 @@ const BoragePlantCare = () => {
             gutterBottom
             style={{ fontFamily: "Comic Sans MS, cursive" }}
           >
-            Borage Plant Care
+            Cucuzza Squash Plant Care
           </Typography>
           <br></br>
-          <img src={BorageimgDes} style={imageStyle} alt="img" />
+          <img src={BottleimgDes} style={imageStyle} alt="img" />
           <br></br>
           <Typography variant="h5" gutterBottom style={headingStyle}>
             Light☀️
           </Typography>
           <Typography style={sectionStyle}>
-            Borage will grow in full sun to partial shade. However, growing
-            borage plants in full sun will give you the best chance of lots of
-            blooms and stocky stems.
+            Cucuzza squash requires full sun of six to eight hours every day to
+            produce a good harvest.
           </Typography>
           <Typography variant="h5" gutterBottom style={headingStyle}>
             Soil🌱
           </Typography>
           <Typography style={sectionStyle}>
-            Borage can thrive even in dry, nutrient-poor soils. However, it
-            prefers a moderately moist, well-drained soil. It also can tolerate
-            a fairly wide soil pH range (4.5–8.5), though it likes a slightly
-            acidic soil. Amending your soil with organic matter, such as
-            compost, will help to give your plants a nutritional boost.
+            The soil should be loamy, fertile, and have a neutral pH.
           </Typography>
           <Typography variant="h5" gutterBottom style={headingStyle}>
             Water💧
           </Typography>
           <Typography style={sectionStyle}>
-            As your borage is growing from seed and getting established in your
-            garden, water it at least every few days to keep the soil evenly
-            moist but not soggy. Once the plant is mature, you can allow the
-            soil to dry out between waterings.
+            Because Cucuzza squash grows quickly and vigorously, it requires
+            plenty of water for good production, especially as summer
+            temperatures rise. The plants require over an inch of moisture per
+            week during peak development.
           </Typography>
           <Typography variant="h5" gutterBottom style={headingStyle}>
             Temperature and Humidity🌡️
           </Typography>
           <Typography style={sectionStyle}>
-            Borage is a particularly hardy herb able to withstand temperatures
-            on both ends of the spectrum. However, while it is tolerant of both
-            heat and cool weather, it won't be able to withstand a hard frost.
-            It has no special humidity needs.
+            Cucuzza squash is a tender annual and easily damaged by frost. Do
+            not plant seed until the soil temperature reaches at least 70
+            degrees Fahrenheit. The vines are tolerant of high humidity but not
+            arid conditions unless given sufficient water.
           </Typography>
           <br></br>
           <br></br>
-          <Link to="/pathh">
+          <Link to="/pathv">
             <Button variant="contained" style={{ marginLeft: "auto" }}>
               Back
             </Button>
@@ -118,4 +113,4 @@ const BoragePlantCare = () => {
   );
 };
 
-export default BoragePlantCare;
+export default CucuzzaSquashCare;

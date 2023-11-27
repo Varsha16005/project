@@ -7,14 +7,14 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Grid } from "@mui/material"; // Import Grid component from Material-UI
 import CardActionArea from "@mui/material/CardActionArea";
-import image1 from "./Plants/SwissimgDes.jpeg";
-import image2 from "./Plants/AnthuriumimgDes.webp";
-import image6 from "./Plants/PeacelilyimgDes.jpeg";
-import image5 from "./Plants/PrayerimgDes.jpeg";
-import image3 from "./Plants/SpringimgDes.jpeg";
-import image4 from "./Plants/TillandsiaimgDes.jpeg";
+import image1 from "./swizz.jpeg";
+import image2 from "./anthurium.webp";
+import image6 from "./peacelily.jpeg";
+import image5 from "./prayerplant.jpeg";
+import image3 from "./springofperls.jpeg";
+import image4 from "./tillandsia.jpeg";
 import { Link } from "react-router-dom";
-export default function VarietiesofAp() {
+export default function Varietiesofvege() {
   return (
     <Grid container spacing={2} padding={7}>
       {" "}
@@ -43,19 +43,14 @@ export default function VarietiesofAp() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹187
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/SwissDes">
+            <Link to="/swiss">
               <Button size="small" variant="contained">
                 Description
               </Button>
@@ -87,19 +82,14 @@ export default function VarietiesofAp() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹85
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/AnthuriumDes">
+            <Link to="/anthurium">
               <Button size="small" variant="contained">
                 Description
               </Button>
@@ -131,19 +121,14 @@ export default function VarietiesofAp() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹216
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/StringDes">
+            <Link to="/string">
               <Button size="small" variant="contained">
                 Description
               </Button>
@@ -176,19 +161,14 @@ export default function VarietiesofAp() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹390
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/TillandsiaDes">
+            <Link to="/tillandsia">
               <Button size="small" variant="contained">
                 Description
               </Button>
@@ -220,19 +200,14 @@ export default function VarietiesofAp() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹220
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/PrayerDes">
+            <Link to="/prayer">
               <Button size="small" variant="contained">
                 Description
               </Button>
@@ -264,19 +239,14 @@ export default function VarietiesofAp() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹125
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/PeacelilyDes">
+            <Link to="/peace">
               <Button size="small" variant="contained">
                 Description
               </Button>

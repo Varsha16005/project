@@ -11,7 +11,7 @@ const Vap = () => {
     >
       <NavBar />
       <Varietiesofap />
-      <Footer />
+      <Footer/>
     </div>
   );
 };

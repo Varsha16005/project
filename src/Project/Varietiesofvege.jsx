@@ -7,12 +7,12 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Grid } from "@mui/material"; // Import Grid component from Material-UI
 import CardActionArea from "@mui/material/CardActionArea";
-import image1 from "./Plants/TomatoimgDes.avif";
-import image2 from "./Plants/OnionimgDes.jpg";
-import image6 from "./Plants/BottleimgDes.jpg";
-import image5 from "./Plants/CarrotDes.png";
-import image3 from "./Plants/BeetrootDes.avif";
-import image4 from "./Plants/ChilliDes.jpg";
+import image1 from "./tomato.avif";
+import image2 from "./onion.jpg";
+import image6 from "./Bottlegourd.jpg";
+import image5 from "./carrot.png";
+import image3 from "./beetroot.avif";
+import image4 from "./chilli.jpg";
 import { Link } from "react-router-dom";
 export default function Varietiesofvege() {
   return (
@@ -43,17 +43,12 @@ export default function Varietiesofvege() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹180
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             <Link to="/tomato">
               <Button size="small" variant="contained">
@@ -87,17 +82,12 @@ export default function Varietiesofvege() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹155
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             <Link to="/onion">
               <Button size="small" variant="contained">
@@ -131,19 +121,14 @@ export default function Varietiesofvege() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹194
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/BeetrootDes">
+            <Link to="/beetroot">
               <Button size="small" variant="contained">
                 Description
               </Button>
@@ -176,19 +161,14 @@ export default function Varietiesofvege() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹138
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/ChilliDes">
+            <Link to="/chilli">
               <Button size="small" variant="contained">
                 Description
               </Button>
@@ -220,19 +200,14 @@ export default function Varietiesofvege() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹199
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/CarrotDes">
+            <Link to="/carrot">
               <Button size="small" variant="contained">
                 Description
               </Button>
@@ -264,19 +239,14 @@ export default function Varietiesofvege() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹178
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/BottleDes">
+            <Link to="/bottle">
               <Button size="small" variant="contained">
                 Description
               </Button>

@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
-import Varietiesofherbs from "./Project/Varietiesofherbs";
+import Varietiesofherbs from "./Varietiesofherbs";
 import Footer from "./Footer";
 const Vap = () => {
   return (
@@ -11,7 +11,7 @@ const Vap = () => {
     >
       <NavBar />
       <Varietiesofherbs />
-      <Footer />
+      <Footer/>
     </div>
   );
 };

@@ -7,12 +7,12 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Grid } from "@mui/material"; // Import Grid component from Material-UI
 import CardActionArea from "@mui/material/CardActionArea";
-import image1 from "./BorageimgDes.jpg";
-import image2 from "./LavenderimgDes.jpeg";
-import image6 from "./DillimgDes.jpg";
-import image5 from "./TulsiimgDes.jpg";
-import image3 from "./PeppermintimgDes.jpg";
-import image4 from "./RosemaryimgDes.webp";
+import image1 from "./borage.jpg";
+import image2 from "./lavender.jpeg";
+import image6 from "./Dill.jpg";
+import image5 from "./tulsi.jpg";
+import image3 from "./peppermint.jpg";
+import image4 from "./rosemary.webp";
 import { Link } from "react-router-dom";
 export default function Varietiesofherbs() {
   return (
@@ -43,19 +43,14 @@ export default function Varietiesofherbs() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹140
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/BorageDes">
+            <Link to="/borage">
               <Button size="small" variant="contained">
                 Description
               </Button>
@@ -87,19 +82,14 @@ export default function Varietiesofherbs() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹150
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/DillDes">
+            <Link to="/dill">
               <Button size="small" variant="contained">
                 Description
               </Button>
@@ -131,19 +121,14 @@ export default function Varietiesofherbs() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹75
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/PeppermintDes">
+            <Link to="/pepper">
               <Button size="small" variant="contained">
                 Description
               </Button>
@@ -177,19 +162,14 @@ export default function Varietiesofherbs() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹95
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/RosemaryDes">
+            <Link to="/rosemary">
               <Button size="small" variant="contained">
                 Description
               </Button>
@@ -221,19 +201,14 @@ export default function Varietiesofherbs() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹125
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/TulsiDes">
+            <Link to="/tulsi">
               <Button size="small" variant="contained">
                 Description
               </Button>
@@ -265,19 +240,14 @@ export default function Varietiesofherbs() {
                       right: 0,
                       textAlign: "end",
                     }}
-                  >
-                    ₹249
-                  </div>
+                  ></div>
                 </div>
               </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" variant="contained">
-              Add to cart
-            </Button>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <Link to="/LavenderDes">
+            <Link to="/lavender">
               <Button size="small" variant="contained">
                 Description
               </Button>
